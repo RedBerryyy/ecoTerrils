@@ -401,104 +401,104 @@ p{
     }
 }
 
-    @media screen and (max-width:500px){
-        .logo{
-            display:relative;
-            font-size: 22px;
-            padding:20%;
-            text-align: center;
-        }
-
-        .logo-icone{
-            display:flex;
-            width:75px;
-            top:5px;
-            left:0;
-            position:absolute;
-            align-items: center;
-            margin:5px;
-        }
-
-        .header{
-            height:90px;
-        }
-
-        .icone{
-            display:inline-block;
-        }
-    
-        #check:checked~.icone #menu-icone {
-            display: none;
-        }
-    
-        .icone #close-icone{
-            display:none;
-        }
-    
-        #check:checked~.icone #close-icone {
-            display: block;
-        }
-    
-        .navbar{
-            position: absolute;
-            top:100%;
-            left:0;
-            width:100%;
-            background: rgba(246, 119, 0, 0.616);
-            box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.271);
-            transition:.3s ease;
-            overflow: hidden;
-        
-        }
-    
-        .navbar a{
-            display:block;
-            font-size: 1.1rem;
-            margin: 1.5rem;
-            text-align: center;
-            transform: translateY(-50px);
-            opacity:0;
-            transition: .4s ease;
-        }
-        
-        #check:checked~.navbar a {
-            transform: translateY(0px);
-            opacity:1;
-            transition-delay: calc(.15s * var(--i));
-        }
-
-        .carousel{
-            margin-top:5.7rem;
-        }
-
-        .toggle-menu:checked ~ .carousel {
-            display:none;
-        }
-
-        .toggle-menu:checked ~.toggle-label{                
-            padding-top:6.5rem;
-        }
-
-        .titles {
-            top:5rem;
-        }
-
-        h2{
-            margin-left: 20px;
-        }
-
-        p{
-            margin-left:20px;
-            margin-right:20px;
-        }
-
-        .footer{
-            padding-top: 3rem;
-        }
+@media screen and (max-width:500px){
+    .logo{
+         display:relative;
+         font-size: 22px;
+        padding:20%;
+        text-align: center;
     }
+
+    .logo-icone{
+        display:flex;
+        width:75px;
+        top:5px;
+        left:0;
+        position:absolute;
+        align-items: center;
+        margin:5px;
+    }
+
+    .header{
+        height:90px;
+    }
+
+    .icone{
+        display:inline-block;
+    }
+    
+    #check:checked~.icone #menu-icone {
+        display: none;
+    }
+    
+    .icone #close-icone{
+        display:none;
+    }
+    
+    #check:checked~.icone #close-icone {
+        display: block;
+    }
+    
+    .navbar{
+        position: absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        background: rgba(246, 119, 0, 0.616);
+        box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.271);
+        transition:.3s ease;
+        overflow: hidden;
+    }
+    
+    .navbar a{
+        display:block;
+        font-size: 1.1rem;
+        margin: 1.5rem;
+        text-align: center;
+        transform: translateY(-50px);
+        opacity:0;
+        transition: .4s ease;
+    }
+        
+    #check:checked~.navbar a {
+        transform: translateY(0px);
+        opacity:1;
+        transition-delay: calc(.15s * var(--i));
+    }
+
+    .carousel{
+        margin-top:5.7rem;
+    }
+
+    .toggle-menu:checked ~ .carousel {
+        display:none;
+    }
+
+    .toggle-menu:checked ~.toggle-label{                
+        padding-top:6.5rem;
+    }
+
+    .titles {
+        top:5rem;
+    }
+
+    h2{
+        margin-left: 20px;
+    }
+
+    p{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    .footer{
+        padding-top: 3rem;
+    }
+}
+    
     @media screen and (max-width:330px){
-        .logo{
-            display:absolute;
-        }
+    .logo{
+        display:absolute;
+    }
     }
 
