@@ -19,6 +19,7 @@ html{
     top: 0;
     left: 0;
     width: 100vw;
+    height:78px;
     padding: 20px;
     background:rgb(246, 119, 0);
     backdrop-filter:blur(100px);
@@ -387,7 +388,7 @@ p{
             position:absolute;
         }
         .header{
-            height:17vh;
+            height:110px;
         }
 
         .icone{
