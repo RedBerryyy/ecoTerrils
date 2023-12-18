@@ -218,6 +218,7 @@ html{
     padding: 10px;
     cursor: pointer;
     transition: padding-left 0.3s ease; 
+    
 }
 
 .container {
@@ -291,12 +292,9 @@ html{
 
 .toggle-menu:checked ~ .toggle-label{
     padding-left:10rem;
+
 }
 
-.site{
-    padding-top:25rem;
-    border-bottom: solid rgb(255, 136, 25) 1px;
-}
 
 /* texte */
 h2{
@@ -311,8 +309,9 @@ p{
 /* footer */
 .footer{
     display: inline-block;
-    margin-top:17rem;
     text-align: center;
+    margin-top: 21rem;
+    border-bottom: solid rgb(255, 136, 25) 1px;
 }
 
 
@@ -376,19 +375,22 @@ p{
 
     @media screen and (max-width:500px){
         .logo{
-            display:absolute;
+            display:relative;
             font-size: 22px;
-            margin:8.7rem;
+            padding:20%;
+            text-align: center;
         }
         .logo-icone{
             display:flex;
-            width:120px;
-            top:0;
+            width:75px;
+            top:5px;
             left:0;
             position:absolute;
+            align-items: center;
+            margin:5px;
         }
         .header{
-            height:110px;
+            height:90px;
         }
 
         .icone{
@@ -416,6 +418,7 @@ p{
             box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.271);
             transition:.3s ease;
             overflow: hidden;
+        
         }
     
         .navbar a{
@@ -435,7 +438,7 @@ p{
         }
 
         .carousel{
-            margin-top:7.2rem;
+            margin-top:5.7rem;
         }
 
         .toggle-menu:checked ~ .carousel {
@@ -443,14 +446,20 @@ p{
         }
 
         .toggle-menu:checked ~.toggle-label{                
-            padding-top:7.45rem;
+            padding-top:6.5rem;
         }
 
         .titles {
-            top:6.85rem;
+            top:5rem;
     }
 
     .footer{
-        margin-top:15rem;
+        margin-top:17rem;
+    }
+
+    @media screen and (max-width:330px){
+        .logo{
+            display:absolute;
+        }
     }
 }
