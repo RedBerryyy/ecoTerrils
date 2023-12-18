@@ -120,11 +120,11 @@ html{
 .container-img img {
     width: 100%;
     height: auto;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .container-img:hover{
-    transform: scale(1.1);
+    transform: scale(1.075);
 }
 
 .container-img:not(:hover){
@@ -206,7 +206,7 @@ html{
 
 .toggle-menu {
     display: none; 
-    
+    overflow: hidden;
 }
 
 .toggle-label {
