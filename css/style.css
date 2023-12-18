@@ -208,6 +208,7 @@ html{
 .toggle-menu {
     display: none; 
     overflow: hidden;
+    padding:10px;
 }
 
 .toggle-label {
@@ -472,10 +473,6 @@ p{
 
         .titles {
             top:5rem;
-    }
-
-    .footer{
-        margin-top:-3rem;
     }
 
     h2{
