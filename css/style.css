@@ -387,7 +387,7 @@ p{
             position:absolute;
         }
         .header{
-            height:12vh;
+            height:17vh;
         }
 
         .icone{
@@ -434,7 +434,7 @@ p{
         }
 
         .carousel{
-            margin-top:6.8rem;
+            margin-top:7.2rem;
         }
 
         .toggle-menu:checked ~ .carousel {
@@ -442,7 +442,7 @@ p{
         }
 
         .toggle-menu:checked ~.toggle-label{                
-            padding-top:7.5rem;
+            padding-top:7.45rem;
         }
 
         .titles {
