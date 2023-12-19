@@ -325,6 +325,7 @@ p{
     text-align: justify; 
 }
 
+
 /* footer */
 .footer{
     display: inline-block;
@@ -407,6 +408,11 @@ p{
     p{
         margin-left:60px;
         margin-right:60px;
+    }
+
+    .Liste{
+        margin-left:6rem;
+        margin-right:6rem;
     }
 }
 
