@@ -313,7 +313,16 @@ p{
     font-family: 'Merriweather Sans', sans-serif;
     margin-left:12rem;
     margin-right:12rem;
-    text-align: justify;
+    text-align:justify;
+}
+
+.Liste{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-right: 12rem;
+    margin-left: 14rem;
+    text-align: justify; 
 }
 
 /* footer */
@@ -491,6 +500,12 @@ p{
         margin-left:20px;
         margin-right:20px;
     }
+
+    .Liste{
+        margin-right: 0.5rem;
+        margin-left:3rem;
+    }
+
 
     .footer{
         padding-top: 3rem;
