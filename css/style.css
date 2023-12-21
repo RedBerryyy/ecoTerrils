@@ -200,7 +200,7 @@ html{
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-    color: #00bfffa0;
+    color: #04ced9;
 }
 
 /* pour le menu pour le sommaire */
@@ -324,6 +324,12 @@ p{
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
+    
+}
+
+::selection {
+    background: rgba(255, 136, 25, 0.879);
+    color: black;
 }
 
 .Liste{
@@ -358,6 +364,9 @@ p{
     margin-right: inherit;
 }
 
+.footer img{
+    width: 8vw;
+}
 
 @media screen and (max-width: 922px){
     .icone{
@@ -529,6 +538,10 @@ p{
 
     .footer{
         padding-top: 3rem;
+    }
+
+    .footer img{
+        display: none;
     }
 }
     
