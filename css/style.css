@@ -220,7 +220,8 @@ html{
     padding: 10px;
     cursor: pointer;
     transition: padding-left 0.3s ease; 
-    
+    font-family: 'Roboto', sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .toggle-label a{
